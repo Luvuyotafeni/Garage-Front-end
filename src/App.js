@@ -1,5 +1,6 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
 import Blog from './Components/Blog/Blog';
 import Home from './Components/Home/Home';
 import Gallery from './Components/Gallery/Gallery';
@@ -7,10 +8,10 @@ import Vehicles from './Components/Vehicles/Vehicles';
 import Parts from './Components/Parts/Parts';
 import Careers from './Components/Careers/Careers';
 import Contact from './Components/Contact/Contact';
+import Header from './Components/Header/Header';
 
 function App() {
   return (
-    <div>
       <Router>
       <div>
         <Header/>
@@ -27,7 +28,6 @@ function App() {
         </div>
       </div>
     </Router>
-    </div>
   );
 }
 
