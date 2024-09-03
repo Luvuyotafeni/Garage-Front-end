@@ -1,8 +1,7 @@
 import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Route, Routes} from 'react-router-dom';
-import Blog from './Components/Blog/Blog';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Components/Home/Home';
+import Blog from './Components/Blog/Blog';
 import Gallery from './Components/Gallery/Gallery';
 import Vehicles from './Components/Vehicles/Vehicles';
 import Parts from './Components/Parts/Parts';
@@ -12,20 +11,18 @@ import Header from './Components/Header/Header';
 
 function App() {
   return (
-      <Router>
+    <Router>
       <div>
-        <Header/>
-        <div>
+        <Header />
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/about" element={<Blog/>} />
-          <Route path="/gallery" element={<Gallery/>}/>
-          <Route path="vehicles" element={<Vehicles/>}/>
-          <Route path="/parts" element={<Parts/>}/>
-          <Route path="/careers" element={<Careers/>}/>
-          <Route path="contact" element={<Contact/>}/> 
+          <Route path="/" element={<Home />} />
+          <Route path="/blog" element={<Blog />} />
+          <Route path="/menu" element={<Gallery />} />
+          <Route path="/vehicles" element={<Vehicles />} />
+          <Route path="/parts" element={<Parts />} />
+          <Route path="/careers" element={<Careers />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
-        </div>
       </div>
     </Router>
   );
