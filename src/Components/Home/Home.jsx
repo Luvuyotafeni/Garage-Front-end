@@ -2,6 +2,11 @@ import React from 'react'
 import './Home.css'
 import hero from "../Assets/download__14_-removebg-preview.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import ai from '../Assets/artificial-intellegence_13320504.png'
+import engine from '../Assets/transport_14982232.png'
+import manual from '../Assets/manual-transmission_2557346.png'
+import starter from '../Assets/starter_6509098.png'
+import oil from '../Assets/engine-oil_1820651.png'
 
 const Home = () => {
   return (
@@ -20,30 +25,53 @@ const Home = () => {
       <section>
         <div className='container'>
           <div className="row">
-            <div className="col-md-4">
+            <div className="col-md-4 mb-2 mt-2">
               <div className="card middle-card">
-                <img src='' className="card-img-top" alt="Side Image 1" />
+                <img src={engine} className="card-img-top" alt="Side Image 1" />
                 <div className="card-body">
                   <h5 className="card-title">Image 1</h5>
-                  <p className="card-text">Description of the first image.</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-2 mt-2">
               <div className="card middle-card">
                 <img src='' className="card-img-top" alt="Middle Image" />
                 <div className="card-body">
                   <h5 className="card-title">Image 2</h5>
-                  <p className="card-text">Description of the middle image.</p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4">
+            <div className="col-md-4 mb-2 mt-2">
               <div className="card middle-card">
-                <img src='' className="card-img-top" alt="Side Image 2" />
+                <img src={ai} className="card-img-top" alt="Side Image 2" />
                 <div className="card-body">
                   <h5 className="card-title">Image 3</h5>
-                  <p className="card-text">Description of the third image.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-4 mb-2 mt-2">
+              <div className="card middle-card">
+                <img src={manual} className="card-img-top" alt="Side Image 1" />
+                <div className="card-body">
+                  <h5 className="card-title">Image 1</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-2 mt-2">
+              <div className="card middle-card">
+                <img src={starter} className="card-img-top" alt="Middle Image" />
+                <div className="card-body">
+                  <h5 className="card-title">Image 2</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-4 mb-2 mt-2">
+              <div className="card middle-card">
+                <img src={oil} className="card-img-top" alt="Side Image 2" />
+                <div className="card-body">
+                  <h5 className="card-title">Image 3</h5>
                 </div>
               </div>
             </div>
