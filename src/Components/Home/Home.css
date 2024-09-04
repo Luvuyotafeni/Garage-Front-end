@@ -31,4 +31,10 @@
 
 .wcu_text p{
     margin:20px;
+    width:50%;
+    text-align: center;
+}
+
+.wcu_text img{
+    width:500px;
 }

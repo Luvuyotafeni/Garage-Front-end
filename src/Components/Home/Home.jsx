@@ -142,6 +142,26 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <h2>Team</h2>
+        <div className='row'>
+          <div className='col-md-4'>
+            <div className='card middle-card side'>
+
+            </div> 
+          </div>
+          <div className='col-md-4'>
+            <div className='card '>
+
+            </div>
+          </div>
+          <div className='col-md-4'>
+            <div className='card middle-card side'>
+
+            </div>
+          </div>
+        </div>
+      </section>
 
     </>
   )
