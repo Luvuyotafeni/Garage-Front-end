@@ -9,6 +9,9 @@ import starter from '../Assets/starter_6509098.png'
 import oil from '../Assets/engine-oil_1820651.png'
 import brakes from '../Assets/car_12841175.png'
 import wcu from '../Assets/download (15).jpg'
+import worker1 from '../Assets/WORKER 1.jpg' 
+import worker2 from '../Assets/wORKER 2.jpg'
+import worker3 from '../Assets/wORKER 3.jpg'
 
 const Home = () => {
   return (
@@ -147,17 +150,17 @@ const Home = () => {
         <div className='row'>
           <div className='col-md-4'>
             <div className='card middle-card side'>
-
+              <img src={worker1} />
             </div> 
           </div>
           <div className='col-md-4'>
             <div className='card '>
-
+            <img src={worker2} />
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card middle-card side'>
-
+              <img src={worker3} />
             </div>
           </div>
         </div>
