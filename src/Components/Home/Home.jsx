@@ -151,16 +151,26 @@ const Home = () => {
           <div className='col-md-4'>
             <div className='card middle-card side'>
               <img src={worker1} />
+              <div className='card-body'></div>
+              <h5 className='card-title'>Lawrence Mthembu</h5>
             </div> 
           </div>
           <div className='col-md-4'>
             <div className='card '>
             <img src={worker2} />
+            <div className='card-body'>
+              <h5 className='card-title'>Mary Sobukhwe</h5>
+
+            </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card middle-card side'>
               <img src={worker3} />
+              <div className='card-body' >
+                <h5 className='card-title'>Zukile Msamo</h5>
+
+              </div>
             </div>
           </div>
         </div>
