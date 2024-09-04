@@ -116,7 +116,7 @@ const Home = () => {
       </section>
       <section>
         <h2 className='text-center'>Why choose us</h2>
-        <div className='f_flex'>
+        <div className='f_flex wcu_text'>
           <div>
             <p className='text-center'>Our workshop is save, installed with 24/7 CCTV Camera and a fence
             24/7 monitoring security guards 

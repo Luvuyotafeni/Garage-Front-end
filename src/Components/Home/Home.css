@@ -24,3 +24,11 @@
     display: flex;
     flex-direction: row;
 }
+
+.wcu_text{
+    margin:20px;
+}
+
+.wcu_text p{
+    margin:20px;
+}
