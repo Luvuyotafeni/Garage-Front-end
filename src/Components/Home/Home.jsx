@@ -8,6 +8,7 @@ import manual from '../Assets/manual-transmission_2557346.png'
 import starter from '../Assets/starter_6509098.png'
 import oil from '../Assets/engine-oil_1820651.png'
 import brakes from '../Assets/car_12841175.png'
+import wcu from '../Assets/download (15).jpg'
 
 const Home = () => {
   return (
@@ -96,9 +97,9 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section>
-        <h2 className='center-text'>About Us</h2>
-        <div className='about-text'>
+      <section className='about-us'>
+        <h2 className='text-center '>About Us</h2>
+        <div className='about-text text-center'>
           <p>LASTROALPICINOS WORKSHOP, has extensive experience in the stream of mechanics, 
             we have repair private owned vehicles, Taxis, Bakkies, BMW, VW, Volvo, Mercedes,
             Old models Cars, Latest model vehicle and Company fleets of a total of 38 vehicles for a period of 
@@ -114,10 +115,31 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <h2 className='center-text'>Why choose us</h2>
-        <div>
-          <div><p></p></div>
-          <div></div>
+        <h2 className='text-center'>Why choose us</h2>
+        <div className='f_flex'>
+          <div>
+            <p className='text-center'>Our workshop is save, installed with 24/7 CCTV Camera and a fence
+            24/7 monitoring security guards 
+            Your vehicle has extra security we park cars inside the shop
+            Our Yard has fence no loss of vehicles occurred before 
+            Affordable prices 
+            Our workmanship has a guarantee 
+            We don’t keep client’s vehicles for long period, we fix cars
+            We keep Records for each vehicle
+            Clients arrive with sad faces and leave with a happy smile 
+            Free Check-ups
+            Free Diagnosis Machine Test
+            Free bearing Press T & C apply
+            All our mechanics work carries a guarantee of 6 months.
+            We handle complain very professional
+            We put clients first always………
+            Free Engine services Book stamp
+            Free Engine, Gearbox, Differential oil changes for our clients only T & C Apply!!!!
+            </p>
+          </div>
+          <div>
+            <img src={wcu} />
+          </div>
         </div>
       </section>
 
