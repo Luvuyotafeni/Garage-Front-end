@@ -96,6 +96,30 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <section>
+        <h2 className='center-text'>About Us</h2>
+        <div className='about-text'>
+          <p>LASTROALPICINOS WORKSHOP, has extensive experience in the stream of mechanics, 
+            we have repair private owned vehicles, Taxis, Bakkies, BMW, VW, Volvo, Mercedes,
+            Old models Cars, Latest model vehicle and Company fleets of a total of 38 vehicles for a period of 
+            Three years contract. 
+            We believe that if we can’t fix it, no one can fix it period…… we are the best of best in this stream. 
+            Plus, years workmanship, integrity, trustworthy, working closely with clients, meet deadlines, solving 
+            complex mechanics issues that give us credit as highly rated skilled professional mechanics.
+            Affordable car service is always guaranteed. Qualified and Expertly Trained mechanics always………. 
+            Lastly we’re a 4.0 star rated mechanics workshop currently and we are looking to reach a five-star 
+            rating soonest. 
+            Certified Mechanics employed 4; Serviced done 8562; Satisfied clients 5862; Total repairs 6542
+          </p>
+        </div>
+      </section>
+      <section>
+        <h2 className='center-text'>Why choose us</h2>
+        <div>
+          <div></div>
+          <div></div>
+        </div>
+      </section>
 
     </>
   )
