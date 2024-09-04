@@ -116,7 +116,7 @@ const Home = () => {
       <section>
         <h2 className='center-text'>Why choose us</h2>
         <div>
-          <div></div>
+          <div><p></p></div>
           <div></div>
         </div>
       </section>
