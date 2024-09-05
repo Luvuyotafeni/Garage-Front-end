@@ -12,6 +12,9 @@ import wcu from '../Assets/download (15).jpg'
 import worker1 from '../Assets/WORKER 1.jpg' 
 import worker2 from '../Assets/wORKER 2.jpg'
 import worker3 from '../Assets/wORKER 3.jpg'
+import parking from '../Assets/garage_1571991.png'
+import money from '../Assets/money_925748.png'
+import diagnosis from '../Assets/diagnosis_9467368.png'
 
 const Home = () => {
   return (
@@ -174,6 +177,39 @@ const Home = () => {
             </div>
           </div>
         </div>
+      </section>
+      <section>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-md-4'>
+                <div className='card middle-card side'>
+                  <img src={parking}/>
+                  <div className='card-body'>
+                    <h5>Safe parking</h5>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4'>
+                <div className='card middle-card side'>
+                  <img src={money}/>
+                  <div className='card-body'>
+                    <h5>Affordable prices</h5>
+                  </div>
+                </div>
+              </div>
+              <div className='col-md-4'>
+                <div className='card middle-card side'>
+                  <img src={diagnosis}/>
+                  <div className='card-body'>
+                    <h5>Free diagnosis</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <section>
+        
       </section>
 
     </>
