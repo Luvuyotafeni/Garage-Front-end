@@ -37,7 +37,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={engine} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 1" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 1</h5>
+                  <h5 className="card-title text-center">Image 1</h5>
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={brakes} className="card-img-top img-fluid w-25 mx-auto" alt="Middle Image" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 2</h5>
+                  <h5 className="card-title text-center">Image 2</h5>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={ai} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 3</h5>
+                  <h5 className="card-title text-center">Image 3</h5>
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={manual} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 1" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 4</h5>
+                  <h5 className="card-title text-center">Image 4</h5>
                 </div>
               </div>
             </div>
@@ -71,7 +71,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={starter} className="card-img-top img-fluid w-25 mx-auto" alt="Middle Image" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 5</h5>
+                  <h5 className="card-title text-center">Image 5</h5>
                 </div>
               </div>
             </div>
@@ -79,7 +79,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 6</h5>
+                  <h5 className="card-title text-center">Image 6</h5>
                 </div>
               </div>
             </div>
@@ -87,7 +87,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 6</h5>
+                  <h5 className="card-title text-center">Image 6</h5>
                 </div>
               </div>
             </div>
@@ -95,7 +95,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title">Image 6</h5>
+                  <h5 className="card-title text-center">Image 6</h5>
                 </div>
               </div>
             </div>
@@ -149,20 +149,20 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <h2>Team</h2>
+        <h2 className='text-center' >Team</h2>
         <div className='row'>
           <div className='col-md-4'>
             <div className='card middle-card side'>
               <img src={worker1} />
               <div className='card-body'></div>
-              <h5 className='card-title'>Lawrence Mthembu</h5>
+              <h5 className='card-title text-center'>Lawrence Mthembu</h5>
             </div> 
           </div>
           <div className='col-md-4'>
             <div className='card '>
             <img src={worker2} />
             <div className='card-body'>
-              <h5 className='card-title'>Mary Sobukhwe</h5>
+              <h5 className='card-title text-center'>Mary Sobukhwe</h5>
 
             </div>
             </div>
@@ -171,7 +171,7 @@ const Home = () => {
             <div className='card middle-card side'>
               <img src={worker3} />
               <div className='card-body' >
-                <h5 className='card-title'>Zukile Msamo</h5>
+                <h5 className='card-title text-center'>Zukile Msamo</h5>
 
               </div>
             </div>
@@ -183,25 +183,25 @@ const Home = () => {
             <div className='row'>
               <div className='col-md-4'>
                 <div className='card middle-card side'>
-                  <img src={parking}/>
+                  <img src={parking} className="card-img-top img-fluid w-25 mx-auto" />
                   <div className='card-body'>
-                    <h5>Safe parking</h5>
+                    <h5 className='text-center'>Safe parking</h5>
                   </div>
                 </div>
               </div>
               <div className='col-md-4'>
                 <div className='card middle-card side'>
-                  <img src={money}/>
+                  <img src={money} className="card-img-top img-fluid w-25 mx-auto" />
                   <div className='card-body'>
-                    <h5>Affordable prices</h5>
+                    <h5 className='text-center'>Affordable prices</h5>
                   </div>
                 </div>
               </div>
               <div className='col-md-4'>
                 <div className='card middle-card side'>
-                  <img src={diagnosis}/>
+                  <img src={diagnosis} className="card-img-top img-fluid w-25 mx-auto" />
                   <div className='card-body'>
-                    <h5>Free diagnosis</h5>
+                    <h5 className='text-center'>Free diagnosis</h5>
                   </div>
                 </div>
               </div>
