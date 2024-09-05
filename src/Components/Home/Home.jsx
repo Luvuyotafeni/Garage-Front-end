@@ -2,6 +2,7 @@ import React from 'react'
 import './Home.css'
 import hero from "../Assets/download__14_-removebg-preview.png"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import ai from '../Assets/artificial-intellegence_13320504.png'
 import engine from '../Assets/transport_14982232.png'
 import manual from '../Assets/manual-transmission_2557346.png'

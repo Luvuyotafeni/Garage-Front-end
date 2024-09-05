@@ -44,3 +44,9 @@
     margin-left: 20px;
     width: 100%;
 }
+
+.carousel {
+    width: 500px;
+    height: 150px;
+    margin: 0 auto 100px auto; /* Center the carousel horizontally */
+}
