@@ -1,55 +1,78 @@
 import img1 from './Assets/1.jpg'
 import img2 from './Assets/2.jpg'
 import img3 from './Assets/3.jpg'
-import img4 from './Assets/5.jpg'
+import img4 from './Assets/4.jpg'
+import img5 from './Assets/5.jpg'
+import img6 from './Assets/6.jpg'
+import img7 from './Assets/7.jpg'
+import img8 from './Assets/8.jpg'
+import img9 from './Assets/9.jpg'
+import img10 from './Assets/10.jpg'
+import img11 from './Assets/11.jpg'
+import img12 from './Assets/12.jpg'
+import img13 from './Assets/13.jpg'
+import img14 from './Assets/14.jpg'
+import img15 from './Assets/15.jpg'
 
 const itemData = [
     {
-      img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
+      img: img1,
       title: 'Bed',
     },
     {
-      img: 'https://images.unsplash.com/photo-1525097487452-6278ff080c31',
+      img: img2,
       title: 'Books',
     },
     {
-      img: 'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
+      img: img3,
       title: 'Sink',
     },
     {
-      img: 'https://images.unsplash.com/photo-1563298723-dcfebaa392e3',
+      img: img4,
       title: 'Kitchen',
     },
     {
-      img: 'https://images.unsplash.com/photo-1588436706487-9d55d73a39e3',
+      img: img5,
       title: 'Blinds',
     },
     {
-      img: 'https://images.unsplash.com/photo-1574180045827-681f8a1a9622',
+      img: img6,
       title: 'Chairs',
     },
     {
-      img: 'https://images.unsplash.com/photo-1530731141654-5993c3016c77',
+      img: img7,
       title: 'Laptop',
     },
     {
-      img: 'https://images.unsplash.com/photo-1481277542470-605612bd2d61',
+      img: img8,
       title: 'Doors',
     },
     {
-      img: 'https://images.unsplash.com/photo-1517487881594-2787fef5ebf7',
+      img: img9,
       title: 'Coffee',
     },
     {
-      img: 'https://images.unsplash.com/photo-1516455207990-7a41ce80f7ee',
+      img: img10,
       title: 'Storage',
     },
     {
-      img: 'https://images.unsplash.com/photo-1597262975002-c5c3b14bbd62',
+      img: img11,
       title: 'Candle',
     },
     {
-      img: 'https://images.unsplash.com/photo-1519710164239-da123dc03ef4',
+      img: img12,
+      title: 'Coffee table',
+    },
+    {
+      img: img13,
+      title: 'Coffee table',
+    },
+    {
+      img: img14,
+      title: 'Coffee table',
+    },
+    {
+      img: img15,
       title: 'Coffee table',
     },
   ];
