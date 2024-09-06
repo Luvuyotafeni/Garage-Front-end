@@ -1,3 +1,8 @@
+import img1 from './Assets/1.jpg'
+import img2 from './Assets/2.jpg'
+import img3 from './Assets/3.jpg'
+import img4 from './Assets/5.jpg'
+
 const itemData = [
     {
       img: 'https://images.unsplash.com/photo-1549388604-817d15aa0110',
