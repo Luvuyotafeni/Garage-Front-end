@@ -8,6 +8,7 @@ import Parts from './Components/Parts/Parts';
 import Careers from './Components/Careers/Careers';
 import Contact from './Components/Contact/Contact';
 import Header from './Components/Header/Header';
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
+        <Footer/>
       </div>
     </Router>
   );
