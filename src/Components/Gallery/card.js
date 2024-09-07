@@ -56,7 +56,7 @@ export const itemData = [
     title: 'Storage',
   },
   {
-    img: img11,
+    img: img2,
     title: 'Candle',
   },
   {
@@ -68,7 +68,7 @@ export const itemData = [
     title: 'Coffee table',
   },
   {
-    img: img14,
+    img: img2,
     title: 'Coffee table',
   },
   {
