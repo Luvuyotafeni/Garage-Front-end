@@ -2,4 +2,25 @@
     background-color: black;
     display: flex;
     flex-direction: row;
+    color:white;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+    height: 40px;
+}
+
+.address{
+    width:50%
+}
+
+.wh{
+    width:25%
+}
+
+.ql{
+    width: 25%;
 }

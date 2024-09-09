@@ -5,11 +5,11 @@ const Footer = () => {
   return (
     <div>
         <div className='shorts'>
-            <div>
+            <div className='ql'>
                 <h3>Quick Links</h3>
                 <div></div>
             </div>
-            <div>
+            <div className='address'>
                 <h3>Address</h3>
                 <div>
                     <p>
@@ -19,7 +19,7 @@ const Footer = () => {
                     </p>
                 </div>
             </div>
-            <div>
+            <div className='wh'>
                 <h3>Working Hours</h3>
                 <div>
                     <p>Mon-fri <span>07:00 - 17:00</span></p>
@@ -28,8 +28,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <div>
-            <p>Designed and developer by <a href=''>Luvuyo Tafeni</a></p>
+        <div className='footer'>
+            <p className='text-center'>Designed and developer by <a href=''>Luvuyo Tafeni</a></p>
         </div>
 
     </div>
