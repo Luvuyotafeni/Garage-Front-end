@@ -27,6 +27,7 @@
 
 .wcu_text{
     margin:20px;
+    justify-items: center;
 }
 
 .wcu_text p{
