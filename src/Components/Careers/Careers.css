@@ -1,4 +1,21 @@
 .f_flex{
     display: flex;
-    flex-direction: row;
+    flex-direction: row; 
+    align-items: center; 
+    justify-items: center;
+    justify-content: center; 
+    margin-top:20px;
+}
+
+.f_flex img{
+    width: 400px;
+    height:350px;
+}
+
+.careers{
+    margin: 50px;
+}
+
+.career_info{
+    margin:80px;
 }

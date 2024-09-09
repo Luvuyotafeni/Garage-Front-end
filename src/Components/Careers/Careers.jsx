@@ -12,7 +12,7 @@ const Careers = () => {
       <h2 className='text-center'>Careers</h2>
       <div className='careers'>
         <div className='f_flex'>
-          <div>
+          <div className='career_info'>
             <h5>Engine Mechanic</h5>
             <ul>
               <li>Barchelors Degree Mechanical Engineering</li>
@@ -27,7 +27,7 @@ const Careers = () => {
           <div>
             <img src={Mechanic2}></img>
           </div>
-          <div>
+          <div className='career_info'>
             <h5>Gear Manual And Diff Mechanic</h5>
             <ul>
               <li>Barchelors Degree Mechanical Engineering</li>
@@ -36,7 +36,7 @@ const Careers = () => {
           </div>
         </div>
         <div className='f_flex'>
-          <div>
+          <div className='career_info'>
             <h5>Automatic Gearbox Mechanic</h5>
             <ul>
               <li>Barchelor's Degree in Mechanical Engineering</li>
@@ -51,7 +51,7 @@ const Careers = () => {
           <div>
             <img src={promoter}></img>
           </div>
-          <div>
+          <div className='career_info'>
             <h5>Online promoter</h5>
             <ul>
               <li>2+ years experience</li>
@@ -59,7 +59,7 @@ const Careers = () => {
           </div>
         </div>
         <div className='f_flex'>
-          <div>
+          <div className='career_info'>
             <h5>Marketing specialist</h5>
             <ul>
               <li>2+ years experience</li>
