@@ -4,7 +4,7 @@ import contact_img from '../Assets/images (5).jpg'
 
 const Contact = () => {
   return (
-    <div>
+    <div className='mt-5'>
       <h2 className='text-center'>Contact Us</h2>
       <div className='container contact_img mt-2 mb-2'>
         <img src={contact_img} alt='contact_img' className='contact_img center-text'/>
@@ -76,7 +76,7 @@ const Contact = () => {
           </form>
         </div>
       </div>
-      <div className='container mt-5'>
+      <div className='container mt-5 mb-3'>
         <h2 className='text-center mb-4'>Our Location</h2>
         <div className='map-container'>
           <iframe

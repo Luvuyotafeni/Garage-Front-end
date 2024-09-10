@@ -1,12 +1,22 @@
-import React from 'react'
+import React, {useState} from 'react'
 import { Link } from 'react-router-dom';
 import "./Header.css"
 
 const Header = () => {
+
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () =>{
+    setIsMenuOpen(isMenuOpen);
+  };
   return (
     <div>
         <nav className="header">
-            <ul className="nav-links">
+          <div className={`nav-links ${isMenuOpen ? 'open': ''}`}>
+            <div className='close-icon' onClick={toggleMenu}>
+              <i className='bx bx-x'></i>
+            </div>
+            <ul >
                 <li>
                 <Link to="/">Home</Link>
                 </li>
@@ -29,6 +39,10 @@ const Header = () => {
                 <Link to="/contact">Contact Us</Link>
                 </li>
             </ul>
+          </div>
+          <div className='hamburger' onClick={toggleMenu}> 
+            <i className={`bx ${isMenuOpen ? 'bx-x': 'bx-menu'}`}></i>
+          </div>
         </nav>
     </div>
   )

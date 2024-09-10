@@ -1,6 +1,11 @@
 .header {
-    background-color: #333;
+    background-color: white;
     padding: 10px 20px;
+    color: black;
+    position:fixed;
+    z-index:999;
+    width: 100%;
+    top:0;
   }
 
   .nav-links {
@@ -23,4 +28,44 @@
 
   .nav-links a:hover {
     text-decoration: underline;
+  }
+
+  .hamburger{
+    display: none;
+    cursor:pointer;
+    font-size: 2.5rem;
+  }
+
+  .close-icon{
+    display:none;
+    font-size:2.5rem;
+    cursor: pointer;
+    position:absolute;
+    top:1rem;
+    right:1rem;
+    z-index: 1001;
+  }
+
+  @media (max-width:768px){
+    .nav-links{
+      display: none;
+    }
+    .hamburger{
+      display: block;
+    }
+
+    .nav-links.open{
+      display: flex;
+      position:fixed;
+      top:0;
+      right:0;
+      width:80%;
+      max-width: 300px;
+      height: 100vh;
+      background-color: white;
+      flex-direction: column;
+      align-items: flex-end;
+      z-index: 1000;
+      padding: 15px;
+    }
   }
