@@ -38,20 +38,29 @@ const Contact = () => {
       <div className='container'>
         <form>
           <div className=' form-row mt-2 mb-2'>
-            <label>Name</label>
-            <input className='form-control'></input>
+            <div className='col-md-6 mb-3'>
+              <label>Name</label>
+              <input className='form-control'></input>
+            </div>
           </div>
-          <div className='form-group mb-2 mt-2'>
-            <label>Email</label>
-            <input className='form-control'></input>
+          <div className='form-row mb-2 mt-2'>
+            <div className='col-md-6 mb-3'>
+              <label>Email</label>
+              <input className='form-control'></input>
+            </div>
           </div>
-          <div className='form-group mb-2 mt-2'>
-            <label>Subject</label>
-            <input className='form-control'></input>
+          <div className='form-row mb-2 mt-2'>
+            <div className='col-md-6 mb-3'>
+              <label>Subject</label>
+              <input className='form-control'></input>
+            </div>
           </div>
           <div>
-            <textarea rows={10} cols={60}></textarea>
+            <div className='col-md-6 mb-3'>
+            <textarea rows={10} cols={30} className='form-control'></textarea>
+            </div>
           </div>
+          <button type='submit' className='btn btn-primary mt-3'>Submit</button>
         </form>
       </div>
     </div>

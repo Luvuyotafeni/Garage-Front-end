@@ -1,5 +1,12 @@
-.contact_img img{
+.contact_img {
+    display: flex;
     justify-content: center;
-    justify-items: center;
+    align-items: center;
+    margin:50px;
+}
 
+.contact_img img {
+    width: 400px;
+    height: auto;
+    border-radius:10px;
 }
