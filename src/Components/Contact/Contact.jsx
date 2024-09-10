@@ -14,21 +14,27 @@ const Contact = () => {
           <div className='col-md-4'>
             <div className='card middle-card'>
               <div className='card-body'>
-                <h5>Receptionist</h5>
+                <h5 className='text-center'>Receptionist</h5>
+                <p><i class='bx bxs-user'></i>Qiqa Mbika</p>
+                <p><i class='bx bxl-whatsapp'></i>0839253459</p>
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card middle-card'>
             <div className='card-body'>
-                <h5>Salesman</h5>
+                <h5 className='text-center'>Salesman</h5>
+                <p><i class='bx bxs-user'></i>Calvin Moss</p>
+                <p><i class='bx bxl-whatsapp'></i>0732963634</p>
               </div>
             </div>
           </div>
           <div className='col-md-4'>
             <div className='card middle-card'>
             <div className='card-body'>
-                <h5>Salesman</h5>
+                <h5 className='text-center'>Salesman</h5>
+                <p><i class='bx bxs-user'></i>Sibusiso Bika</p>
+                <p><i class='bx bxl-whatsapp'></i>0834630321</p>
               </div>
             </div>
           </div>
