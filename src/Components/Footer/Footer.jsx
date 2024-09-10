@@ -14,7 +14,7 @@ const Footer = () => {
                 <div>
                     <p>
                         SHOP NO: 10, EZIMBUZINI AUTO HUB, ISIZINDA
-                        SOMAKHENIKHA,MUNICIPALITY MECHANICAL WORKSHOPS, 
+                        SOMAKHENIKHA, MUNICIPALITY MECHANICAL WORKSHOPS, 
                         CORNER OF PRINCE MCWAYIZENI DRIVE, DURBAN 4089
                     </p>
                 </div>
