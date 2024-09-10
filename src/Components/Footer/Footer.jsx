@@ -31,7 +31,7 @@ const Footer = () => {
         <div className='footer'>
             <p className='text-center'>Designed and developer by <a href=''>Luvuyo Tafeni</a></p>
         </div>
-
+        
     </div>
   )
 }
