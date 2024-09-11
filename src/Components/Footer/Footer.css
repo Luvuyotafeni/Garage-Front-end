@@ -24,3 +24,25 @@
 .ql{
     width: 25%;
 }
+
+@media (max-width:326px){
+    .address p{
+        font-size: small;
+    }
+
+    .address h3{
+        font-size: small;
+    }
+
+    .ql h3{
+        font-size: small;
+    }
+
+    .wh p{
+        font-size: xx-small;
+    }
+
+    .wh h3{
+        font-size: small;
+    }
+}
