@@ -134,26 +134,23 @@ const Vehicles = () => {
               <img src={Toyota} />
               <div className='card-body'></div>
             </div>
-
           </div>
           <div className='col-md-4'>
             <div className='card middle-card'>
               <img src={Volvo} />
               <div className='card-body'></div>
             </div>
-
           </div>
           <div className='col-md-4'>
             <div className='card middle-card'>
               <img src={Voklswagen} />
               <div className='card-body'></div>
             </div>
-
           </div>
         </div>
       </div>
     </div>
   )
 }
-
+ 
 export default Vehicles
