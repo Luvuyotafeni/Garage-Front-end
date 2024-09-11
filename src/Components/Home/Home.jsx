@@ -25,7 +25,7 @@ const Home = () => {
           <div className='hero_img'>
             <img src={hero} alt='' />
           </div>
-          <div>
+          <div className='moto'>
             <h3>Lastro Workshop</h3>
             <p>if we can't fix i tno one can <span>Period</span></p>
           </div>
