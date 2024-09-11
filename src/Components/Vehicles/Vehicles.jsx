@@ -23,7 +23,7 @@ const Vehicles = () => {
   return (
     <div className='container'>
       <h2>Vehicles</h2>
-      <div className='container'>
+      <div className='container vehicles'>
         <div className='row'>
           <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card'>

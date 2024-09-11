@@ -122,6 +122,7 @@ const Home = () => {
         </div>
       </section>
       <section>
+        <div className='container'>
         <h2 className='text-center'>Why choose us</h2>
         <div className='f_flex wcu_text'>
           <div>
@@ -147,6 +148,7 @@ const Home = () => {
           <div>
             <img src={wcu} alt="why choose us"/>
           </div>
+        </div>
         </div>
       </section>
       <section className='mt-2 mb-2'>

@@ -25,6 +25,9 @@
     width: 25%;
 }
 
+.footer p{
+    font-size: large;
+}
 @media (max-width:326px){
     .address p{
         font-size: small;
@@ -44,5 +47,8 @@
 
     .wh h3{
         font-size: small;
+    }
+    .footer p{
+        font-size:small;
     }
 }

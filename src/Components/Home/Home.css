@@ -23,21 +23,24 @@
 .f_flex{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .wcu_text{
     margin:20px;
-    justify-items: center;
+    /* justify-items: center; */
 }
 
 .wcu_text p{
-    margin:20px;
-    width:50%;
+     margin:20px;
+    width:450px;
     text-align: center;
+    padding: 0;
 }
 
 .wcu_text img{
     width:500px;
+    margin-left: 0;
 }
 
 .employee_box{
