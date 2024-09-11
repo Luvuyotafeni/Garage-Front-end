@@ -80,7 +80,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title text-center">Image 6</h5>
+                  <h5 className="card-title text-center">Engine oil exchange</h5>
                 </div>
               </div>
             </div>
@@ -88,7 +88,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title text-center">Image 6</h5>
+                  <h5 className="card-title text-center">Turbo Charge Sevices</h5>
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ const Home = () => {
               <div className="card middle-card">
                 <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
                 <div className="card-body">
-                  <h5 className="card-title text-center">Image 6</h5>
+                  <h5 className="card-title text-center">Differential Services</h5>
                 </div>
               </div>
             </div>
