@@ -71,7 +71,7 @@ const Contact = () => {
               </div>
             </div>
             <div className='d-flex justify-content-center'>
-              <button type='submit' className='btn btn-primary mt-3 mb-2'>Submit</button>
+              <button type='submit' className='btn btn-dark mt-3 mb-2'>Submit</button>
             </div>
           </form>
         </div>

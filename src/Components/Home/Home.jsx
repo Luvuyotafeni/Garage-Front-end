@@ -23,7 +23,7 @@ const Home = () => {
       <section>
         <div className='hero'>
           <div className='hero_img'>
-            <img src={hero} alt='' />
+            <img src={hero} alt='hero' />
           </div>
           <div className='moto'>
             <h3>Lastro Workshop</h3>
@@ -36,7 +36,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={engine} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 1" />
+                <img src={engine} className="card-img-top img-fluid w-25 mx-auto" alt="engine" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Engine rebuilding</h5>
                 </div>
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={brakes} className="card-img-top img-fluid w-25 mx-auto" alt="Middle Image" />
+                <img src={brakes} className="card-img-top img-fluid w-25 mx-auto" alt="brakes" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Brake and Clutch</h5>
                 </div>
@@ -52,7 +52,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={ai} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
+                <img src={ai} className="card-img-top img-fluid w-25 mx-auto" alt="Artificial intelligence" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Mechatronic Body repair</h5>
                 </div>
@@ -60,7 +60,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={manual} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 1" />
+                <img src={manual} className="card-img-top img-fluid w-25 mx-auto" alt="Gear box service" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Gear Box Manual/Automatic</h5>
                 </div>
@@ -70,7 +70,7 @@ const Home = () => {
           <div className="row">
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={starter} className="card-img-top img-fluid w-25 mx-auto" alt="Middle Image" />
+                <img src={starter} className="card-img-top img-fluid w-25 mx-auto" alt="Stater service" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Carburetor services</h5>
                 </div>
@@ -78,7 +78,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
+                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Oil Exchange" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Engine oil exchange</h5>
                 </div>
@@ -86,7 +86,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
+                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Turbo charge" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Turbo Charge Sevices</h5>
                 </div>
@@ -94,7 +94,7 @@ const Home = () => {
             </div>
             <div className="col-md-3 mb-2 mt-2">
               <div className="card middle-card">
-                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Side Image 2" />
+                <img src={oil} className="card-img-top img-fluid w-25 mx-auto" alt="Differential services" />
                 <div className="card-body">
                   <h5 className="card-title text-center">Differential Services</h5>
                 </div>
@@ -145,7 +145,7 @@ const Home = () => {
             </p>
           </div>
           <div>
-            <img src={wcu} />
+            <img src={wcu} alt="why choose us"/>
           </div>
         </div>
       </section>
@@ -154,14 +154,14 @@ const Home = () => {
         <div className='row employee_box'>
           <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card side'>
-              <img src={worker1} className="card-img-top img-fluid w-75 mx-auto" />
+              <img src={worker1} className="card-img-top img-fluid w-75 mx-auto" alt='Lawrence Mtehmbu'/>
               <div className='card-body '></div>
               <h5 className='card-title text-center'>Lawrence Mthembu</h5>
             </div> 
           </div>
           <div className='col-md-4 mb-2 mt-2'>
             <div className='card '>
-            <img src={worker2} className="card-img-top img-fluid w-75 mx-auto" />
+            <img src={worker2} className="card-img-top img-fluid w-75 mx-auto" alt='Mary Sobukhwe' />
             <div className='card-body'>
               <h5 className='card-title text-center'>Mary Sobukhwe</h5>
 
@@ -170,10 +170,9 @@ const Home = () => {
           </div>
           <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card side'>
-              <img src={worker3} className="card-img-top img-fluid w-75 mx-auto"/>
+              <img src={worker3} className="card-img-top img-fluid w-75 mx-auto" alt='Zukile Msamo'/>
               <div className='card-body' >
                 <h5 className='card-title text-center'>Zukile Msamo</h5>
-
               </div>
             </div>
           </div>
@@ -184,7 +183,7 @@ const Home = () => {
             <div className='row'>
               <div className='col-md-4 mb-2 mt-2'>
                 <div className='card middle-card side'>
-                  <img src={parking} className="card-img-top img-fluid w-25 mx-auto" />
+                  <img src={parking} className="card-img-top img-fluid w-25 mx-auto" alt='Safe Parking'/>
                   <div className='card-body'>
                     <h5 className='text-center'>Safe parking</h5>
                   </div>
@@ -192,7 +191,7 @@ const Home = () => {
               </div>
               <div className='col-md-4 mb-2 mt-2'>
                 <div className='card middle-card side'>
-                  <img src={money} className="card-img-top img-fluid w-25 mx-auto" />
+                  <img src={money} className="card-img-top img-fluid w-25 mx-auto" alt='money' />
                   <div className='card-body'>
                     <h5 className='text-center'>Affordable prices</h5>
                   </div>
@@ -200,7 +199,7 @@ const Home = () => {
               </div>
               <div className='col-md-4 mb-2 mt-2'>
                 <div className='card middle-card side'>
-                  <img src={diagnosis} className="card-img-top img-fluid w-25 mx-auto" />
+                  <img src={diagnosis} className="card-img-top img-fluid w-25 mx-auto" alt='diagnosis'/>
                   <div className='card-body'>
                     <h5 className='text-center'>Free diagnosis</h5>
                   </div>
