@@ -1,14 +1,15 @@
 .contact_img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
 }
 
 .contact_img img {
-    width: 400px;
-    height: auto;
-    border-radius:10px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  border-radius: 10px;
 }
 
 /* .map-container {
@@ -27,3 +28,30 @@
     height: 100%;
   } */
   
+  @media (max-width: 768px) {
+    .contact_img img {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .contact_img img {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contact_img img {
+        max-width: 150px;
+    }
+}
+@media (max-width: 326px) {
+  .contact_img img {
+      max-width: 150px;
+  }
+  .contact_img{
+    width:300px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

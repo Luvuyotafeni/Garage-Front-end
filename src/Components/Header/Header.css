@@ -1,89 +1,118 @@
 .header {
-    background-color: white;
-    padding: 10px 20px;
-    color: black;
-    position:fixed;
-    z-index:999;
-    width: 100%;
-    top:0;
+  background-color: white;
+  padding: 10px 20px;
+  color: black;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  top: 0;
+}
+
+/* Default nav-links - visible on large screens */
+.nav-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 0 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links a {
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Hamburger - hidden on larger screens */
+.hamburger {
+  display: none;
+  cursor: pointer;
+  font-size: 2.5rem;
+}
+
+/* Close icon - for mobile view */
+.close-icon {
+  display: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1001;
+}
+
+/* Mobile menu settings */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
   }
 
-  .nav-links {
-    list-style: none;
+  .hamburger {
+    display: block;
+  }
+
+  /* Open the nav-links on smaller screens */
+  .nav-links.open {
     display: flex;
-    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80%;
+    max-width: 300px;
+    height: 100vh;
+    background-color: white;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 1000;
+    padding: 15px;
+  }
+
+  .nav-links.open ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 0;
     margin: 0;
   }
 
-  .nav-links li {
-    margin: 0 10px;
+  .nav-links.open ul li {
+    margin: 15px 0;
+    font-size: 1.2rem;
   }
 
-  .nav-links a {
-    color: black;
-    text-decoration: none;
-    font-size: 18px;
+  .close-icon {
+    display: block;
+  }
+}
+
+/* Show the nav-links on larger screens */
+@media (min-width: 769px) {
+  .nav-links {
+    display: flex !important;
   }
 
-  .nav-links a:hover {
-    text-decoration: underline;
-  }
-
-  .hamburger{
+  .hamburger {
     display: none;
-    cursor:pointer;
-    font-size: 2.5rem;
   }
-
-  .close-icon{
-    display:none;
-    font-size:2.5rem;
-    cursor: pointer;
-    position:absolute;
-    top:1rem;
-    right:1rem;
-    z-index: 1001;
+}
+@media(max-width: 326){
+  .nav-links{
+    width: 100%;
   }
-
-  @media (max-width:768px){
-    .nav-links{
-      display: none;
-    }
-    .hamburger{
-      display: block;
-    }
-
-    .nav-links.open{
-      display: flex;
-      position:fixed;
-      top:0;
-      right:0;
-      width:80%;
-      max-width: 300px;
-      height: 100vh;
-      background-color: white;
-      flex-direction: column;
-      align-items: flex-end;
-      z-index: 1000;
-      padding: 15px;
-    }
-
-    .nav-links.open ul{
-      display:flex;
-      flex-direction: column;
-      width: 100%;
-      padding:0;
-      margin:0;
-   
-    }
-
-    .nav-links.open ul li{
-      margin:15px 0;
-      font-size: 1.2rem;
-    }
-
-    .close-icon{
-      display: block;
-    }
-  }
+}
