@@ -12,7 +12,7 @@ const Contact = () => {
 
       <div className='container mt-2'>
         <div className='row'>
-          <div className='col-md-4'>
+          <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card'>
               <div className='card-body'>
                 <h5 className='text-center'>Receptionist</h5>
@@ -21,7 +21,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card'>
               <div className='card-body'>
                 <h5 className='text-center'>Salesman</h5>
@@ -30,7 +30,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className='col-md-4'>
+          <div className='col-md-4 mb-2 mt-2'>
             <div className='card middle-card'>
               <div className='card-body'>
                 <h5 className='text-center'>Salesman</h5>

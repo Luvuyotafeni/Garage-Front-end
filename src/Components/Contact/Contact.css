@@ -47,7 +47,7 @@
 }
 @media (max-width: 326px) {
   .contact_img img {
-      max-width: 150px;
+      max-width: 250px;
   }
   .contact_img{
     width:300px;
