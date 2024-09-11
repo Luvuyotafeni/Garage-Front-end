@@ -17,5 +17,19 @@
 }
 
 .career_info{
-    margin:80px;
+    margin: 80px;
+}
+
+@media(max-width: 326px){
+    .f_flex{
+        flex-direction: column;
+    }
+
+    .f_flex img{
+        width: 300px;
+        height: auto;
+    }
+    .career_info{
+        margin: 20px 20px 20px 20px;
+    }
 }
