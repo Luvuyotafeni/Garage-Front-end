@@ -5,11 +5,17 @@
 }
 
 .hero_img{
-    height: 400px;
+    height: 500px;
+}
+
+.moto{
+    text-align:center;
+    margin-top: 150px;
+    font-size: xx-large;
 }
 
 .hero_img img{
-    height: 350px;
+    height: 450px;
 }
 
 .about-text{
